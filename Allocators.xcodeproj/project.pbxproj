@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2F78C11BD90167002D72B3 /* allocators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F78BF1BD90167002D72B3 /* allocators.cpp */; settings = {ASSET_TAGS = (); }; };
 		0D3F3A121BCEEAE500D9E691 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F3A111BCEEAE500D9E691 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D2F78BF1BD90167002D72B3 /* allocators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = allocators.cpp; sourceTree = "<group>"; };
+		0D2F78C01BD90167002D72B3 /* allocators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = allocators.hpp; sourceTree = "<group>"; };
 		0D3F3A0E1BCEEAE500D9E691 /* Allocators */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Allocators; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3F3A111BCEEAE500D9E691 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0D3F3A111BCEEAE500D9E691 /* main.cpp */,
+				0D2F78BF1BD90167002D72B3 /* allocators.cpp */,
+				0D2F78C01BD90167002D72B3 /* allocators.hpp */,
 			);
 			path = Allocators;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D3F3A121BCEEAE500D9E691 /* main.cpp in Sources */,
+				0D2F78C11BD90167002D72B3 /* allocators.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +241,7 @@
 				0D3F3A171BCEEAE500D9E691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
